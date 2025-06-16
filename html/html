@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <title>Portfólio | Makoto</title> <!-- Título na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!-- Fonte do Google -->
+</head>
+<body>
+    <!-- Cabeçalho / Apresentação -->
+    <header class="cabecalho">
+        <h1>Makoto</h1>
+        <p>Desenvolvedora Front-End em Formação</p>
+    </header>
+
+    <!-- Seção "Sobre Mim" -->
+    <section class="sobre">
+        <h2>👩‍💻 Sobre Mim</h2>
+        <p>Olá! Meu nome é makoto e estou aprendendo desenvolvimento web com HTML, CSS e JavaScript. Adoro criar projetos e estou em busca de novos desafios!</p>
+    </section>
+
+    <!-- Seção "Habilidades" -->
+    <section class="habilidades">
+        <h2>🛠️ Habilidades</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Básico)</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Seção "Projetos" -->
+    <section class="projetos">
+        <h2>💻 Projetos</h2>
+        <div class="projeto-item">
+            <h3>Projeto 1</h3>
+            <p>Uma landing page simples feita com HTML e CSS.</p>
+            <button class="btn-ver-projeto">Ver Projeto</button>
+        </div>
+    </section>
+
+    <!-- Rodapé com Contato -->
+    <footer class="rodape">
+        <h2>📩 Contato</h2>
+        <p>Email: seuemail@exemplo.com</p>
+        <p>GitHub: <a href="https://github.com/seuuser" target="_blank">github.com/seuuser</a></p>
+    </footer>
+
+    <!-- Link para o JavaScript -->
+    <script src="script.js"></script>
+    <!-- Script para interações -->
+    <script>
+        document.querySelectorAll('.btn-ver-projeto').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Projeto em desenvolvimento!');
+            });
+        });
+    </script>
+</body>
+</html>
